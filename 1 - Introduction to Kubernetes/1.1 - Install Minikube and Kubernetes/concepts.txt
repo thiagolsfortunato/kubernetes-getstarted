@@ -1,0 +1,21 @@
+Minions: 
+    É o nome dado para cada host do cluster.
+
+Kubelet: 
+    Agente que roda nos hosts do cluster.
+
+Pods: 
+    É a menor unidade dentro de um cluster, nada mais é do que containers rodando dentro de seu cluster de Kubernetes. 
+    Pode ser um container rodando nginx, php, apache, etc…
+
+Replication Controller: 
+    É o responsável por manter um número determinado de pods em execução. No RC é onde você diz quantos containers de nginx, 
+    php, apache você desejá que fiquem rodando, caso um caia, o RC cria outra instância automaticamente.
+
+Services: 
+    É o responsável por atrelar uma faixa de IP para um determinado RC. Para que cada vez que o RC crie uma nova instância 
+    de pod o mesmo inicie com um IP determinado pelo service.
+
+Namespace: 
+    Com o namespace você pode dividir seu Cluster de Kubernetes em dois ambientes, Produção e Teste, podendo limitar os 
+    recursos computacionais para ambos.
