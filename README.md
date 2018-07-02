@@ -1,6 +1,6 @@
 # kubernetes-demo
 
-This project was based curse [Kubernetes from a DevOps Kubernetes Guru](https://www.udemy.com/kubernetes-from-a-devops-kubernetes-guru)
+This project was based on the [Kubernetes from a DevOps Kubernetes Guru](https://www.udemy.com/kubernetes-from-a-devops-kubernetes-guru) curse.
 
 ## Scripts
 
